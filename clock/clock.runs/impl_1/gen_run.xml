@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1546966424">
+  <File Type="BITSTR-BMM" Name="clock_slp_bd.bmm"/>
   <File Type="ROUTE-PWR" Name="clock_slp_power_routed.rpt"/>
   <File Type="PA-TCL" Name="clock_slp.tcl"/>
-  <File Type="BITSTR-BMM" Name="clock_slp_bd.bmm"/>
+  <File Type="OPT-DCP" Name="clock_slp_opt.dcp"/>
   <File Type="ROUTE-PWR-SUM" Name="clock_slp_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="clock_slp_reports.tcl"/>
-  <File Type="OPT-DCP" Name="clock_slp_opt.dcp"/>
   <File Type="OPT-DRC" Name="clock_slp_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="clock_slp.hwdef"/>
   <File Type="PWROPT-DCP" Name="clock_slp_pwropt.dcp"/>
@@ -25,19 +25,20 @@
   <File Type="ROUTE-BLACKBOX-DCP" Name="clock_slp_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="clock_slp_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="clock_slp_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="clock_slp_drc_routed.rpx"/>
   <File Type="BITSTR-LTX" Name="clock_slp.ltx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="clock_slp_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="clock_slp_drc_routed.rpx"/>
   <File Type="BITSTR-MMI" Name="clock_slp.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="clock_slp_methodology_drc_routed.rpt"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="clock_slp_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="clock_slp_methodology_drc_routed.pb"/>
   <File Type="BITSTR-SYSDEF" Name="clock_slp.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="clock_slp_methodology_drc_routed.pb"/>
   <File Type="ROUTE-PWR-RPX" Name="clock_slp_power_routed.rpx"/>
   <File Type="ROUTE-STATUS" Name="clock_slp_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="clock_slp_route_status.pb"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="clock_slp_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="clock_slp_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="clock_slp_timing_summary_routed.rpx"/>
+  <File Type="RDI-RDI" Name="clock_slp.vdi"/>
   <File Type="ROUTE-CLK" Name="clock_slp_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW" Name="clock_slp_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="clock_slp_bus_skew_routed.pb"/>
@@ -48,7 +49,6 @@
   <File Type="BITSTR-RBT" Name="clock_slp.rbt"/>
   <File Type="BITSTR-NKY" Name="clock_slp.nky"/>
   <File Type="BG-DRC" Name="clock_slp.drc"/>
-  <File Type="RDI-RDI" Name="clock_slp.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
